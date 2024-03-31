@@ -148,7 +148,7 @@ formData.append('content_text', contentEdit3 );
     <h4 className='error'>{errorUsername}</h4>
       <div className="container_about" style={{textAlign: 'center'}}>
 
-      <h3>Пишем новый пост контент</h3>
+      <h3>Жаңа пост мазмұнын жазу</h3>
     
     
       </div>
@@ -160,7 +160,7 @@ formData.append('content_text', contentEdit3 );
       <div className="container_about" style={{textAlign: 'center'}}>
       
 
-      <h4>Наименования новости</h4>
+      <h4>Жаңалықтар атаулары</h4>
     
     
       </div>
@@ -179,7 +179,7 @@ formData.append('content_text', contentEdit3 );
     
       <div className="container_about" style={{textAlign: 'center'}}>
 
-      <h4>Краткое описание новости</h4>
+      <h4>Жаңалықтың қысқаша сипаттамасы</h4>
     
     
       </div>
@@ -194,7 +194,7 @@ formData.append('content_text', contentEdit3 );
   
     <div className="container_about" style={{textAlign: 'center'}}>
 
-    <h4>Текст новости</h4>
+    <h4>Жаңалық мәтіні</h4>
   
   
     </div>
@@ -209,7 +209,7 @@ formData.append('content_text', contentEdit3 );
 
     <div className="container_about" style={{textAlign: 'center'}}>
 
-    <h4>Обязательное изображение</h4>
+    <h4>Қажетті сурет</h4>
   
   
     </div>
@@ -228,7 +228,7 @@ formData.append('content_text', contentEdit3 );
     
     <div className="container_about" style={{textAlign: 'center'}}>
 
-    <h4>Пост в главные ?</h4>
+    <h4>Пост батты бетке ?</h4>
   
   
  
@@ -240,7 +240,7 @@ formData.append('content_text', contentEdit3 );
 
     <div className="outer" >
     <span className="inner" >
-    <button className="login__submit"  >Отправить пост</button>
+    <button className="login__submit"  >Постты жіберу</button>
     </span>
     </div>
  

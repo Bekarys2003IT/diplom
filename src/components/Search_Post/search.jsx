@@ -67,7 +67,7 @@ class LiveSearchFilter extends Component {
    
       <div className="searchModule">
 <div className="container_search">
-     <h4 className="data_lenght"> Всего найдено {this.state.result_length}</h4>
+     <h4 className="data_lenght"> Барлығы табылды{this.state.result_length}</h4>
         <input
         
           onChange={this.onLsChange}
@@ -80,8 +80,8 @@ class LiveSearchFilter extends Component {
         {this.state.result_data_null
         ?
     
-        <div className="null_data">  Данного поста несуществует.<TextAnim text_main="Ищи где не ожидаешь" width="20"/></div>
-   
+        <div className="null_data">  Ондай пост жоқ.<TextAnim text_main="Постты іздеңіз" width="20"/></div>
+
         :
         <div  className="Container">
   

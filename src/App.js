@@ -16,14 +16,15 @@ function App() {
 
       
 <Head 
- title={"KAZNEWS"}
- home={"ГЛАВНАЯ"}  
- skills={"ОСНОВНЫЕ НОВОСТИ"} 
- projects={"О НАС"} 
- contact={"КОНТАКТЫ"} 
- register={'РЕГИСТРАЦИЯ'} 
+ title={"LAWLAPP"}
+ home={"БАСТЫ БЕТ"}
+ skills={"НЕГІЗГІ ЖАҢАЛЫҚТАР"}
+ projects={"БІЗ ТУРАЛЫ"}
+ contact={"КОНТАКТІЛЕР"}
+ register={'ТІРКЕЛУ'}
  login={'АВТОРИЗАЦИЯ'}
- redactor={'РЕДАКЦИЯ'}
+ redactor={'БАСПА'}
+ lawyer={'ЗАҢГЕР'}
  />
 
 

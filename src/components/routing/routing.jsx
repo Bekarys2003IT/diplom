@@ -10,6 +10,7 @@ import Redactor from '../../Pages/Redactor/Redactor'
 import LiveSearchFilter from '../Search_Post/search'
 import Profile from '../Profile/profile'
 import {useRoutes} from "react-router-dom";
+import Lawyer from "../Lawyer/lawyer";
 
   
 const Routings = (props) => {
@@ -27,6 +28,7 @@ const Routings = (props) => {
       { path: "redactor", element: <Redactor />},
       { path: "search", element: <LiveSearchFilter/>},
       { path: "profile", element: <Profile/>},
+        {path: "lawyer", element: <Lawyer/>},
       
       
      

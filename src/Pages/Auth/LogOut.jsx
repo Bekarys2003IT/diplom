@@ -47,10 +47,10 @@ const LogoutCallback = () => {
         ?
         <div>
         <div>ERORR</div>
-        <Button variant="outlined" onClick={LogoutCallback} color="error">Выйти</Button>
+        <Button variant="outlined" onClick={LogoutCallback} color="error">Шығу</Button>
         </div>
         :
-        <Button variant="outlined" onClick={LogoutCallback} color="error">Выйти</Button>
+        <Button variant="outlined" onClick={LogoutCallback} color="error">Шығу</Button>
 
     );
 }

@@ -65,24 +65,24 @@ useEffect(()=>{
     <React.Fragment>
 <CardContent>
 <Typography variant="h6" component="div">
-        Краткая иформация о посте
+        Пост жайлы қысқаша ақпарат
 </Typography>
   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-    Дата создания поста - {posts.date_add} <PlaylistAddCheckIcon sx={{ color: 'blue'}}/>
+    Посттың жасалған күні - {posts.date_add} <PlaylistAddCheckIcon sx={{ color: 'blue'}}/>
   </Typography>
 
   <Typography sx={{ fontSize: 14 }} color="text.secondary">
-  Количество поставивших нравится {posts.likes.length} <FavoriteIcon sx={{ color: 'red'}}/>
+  Лүпілдер саны {posts.likes.length} <FavoriteIcon sx={{ color: 'red'}}/>
   </Typography>
 
   {posts.main_news
   ?
   <Typography sx={{ fontSize: 14 , color: 'green' }} color="text.secondary">
-       Пост поставлен в главные <VerifiedIcon/>
+       Пост басты бетке қойылды <VerifiedIcon/>
   </Typography>
   :
   <Typography  sx={{ fontSize: 14, color: 'red'}} color="text.secondary">
-  Пост не поставлен в главные <UnpublishedIcon/>
+  Пост басты бетке қойылмады <UnpublishedIcon/>
 </Typography>
   
   }
@@ -115,10 +115,10 @@ useEffect(()=>{
     )}
     <CardContent/>
     <Alert severity="warning">
-    <AlertTitle>Внимание</AlertTitle>
-    Мы не пропагандируем идею а просто говорим факты а верит в них ваш — выбор.
+    <AlertTitle>Назар!</AlertTitle>
+    Біз идеяны алға жылжытпаймыз, біз жай ғана фактілерді айтамыз және оларға сену сіздің таңдауыңыз.
     <br/>
-    <strong> Мы придерживаемся идей "доверяй но проверяй"</strong>
+    <strong> Біз «сеніңіз, бірақ тексеріңіз» идеяларын ұстанамыз</strong>
   </Alert>
 
     </Container>

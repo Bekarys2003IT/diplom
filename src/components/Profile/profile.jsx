@@ -98,11 +98,11 @@ const Profile=()=>{
        
 
           
-            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div" > Имя: {profile.first_name} </Typography>
+            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div" > Аты: {profile.first_name} </Typography>
        
 
          
-            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div">Фамилиия: {profile.last_name}</Typography>
+            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div">Жөні: {profile.last_name}</Typography>
     
             
       
@@ -110,13 +110,13 @@ const Profile=()=>{
             
 
          
-            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div">Отчество: {profile.surname}</Typography>
+            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div">Әкесінің аты: {profile.surname}</Typography>
            
 
     
-            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div">Дата создания профиля: {profile.created_at}</Typography>
+            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div">Профиль жасалу күні: {profile.created_at}</Typography>
   
-            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div">Прошло времени от создания 
+            <Typography sx={{fontFamily:  "Segoe UI"}} variant="h6" component="div">Профиль жасау уақыты бітті
        
             </Typography>
             </CardContent>

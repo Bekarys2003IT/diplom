@@ -63,7 +63,7 @@ export default class Captcha extends React.Component {
       <div className="captcha">
       
       <button className="login__submit" onClick={this.handleClick} >
-        обновить
+        Жаңарту
       </button>
       </div>
     

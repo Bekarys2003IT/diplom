@@ -21,8 +21,8 @@ function IndexPage() {
 
 <Section 
 img={<Img lostImage={lostImage} imagestyle={"hero-img"}/>}
-content={<About main_texts={"Мой способ шутить — это говорить правду.На свете нет ничего смешнее. "}
-about={"Коротко о нас"}/>}
+content={<About main_texts={"Егер бiз өзiмiздiң барлық мiндеттерiмiздi орындасақ құқықтарымызды көп iздемеймiз."}
+about={"Біз жайлы қысқаша"}/>}
 />
 
 <CardContent/>

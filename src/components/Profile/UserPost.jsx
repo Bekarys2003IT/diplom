@@ -92,7 +92,7 @@ const UserPost = observer(()=>{
       
         <Card >
         <CardContent>
-        <h2 ><LocalFireDepartmentIcon color="primary"/>Ваши редакций <LocalFireDepartmentIcon color="primary"/></h2> 
+        <h2 ><LocalFireDepartmentIcon color="primary"/>Сіздің редакцияңыз <LocalFireDepartmentIcon color="primary"/></h2>
         <img style={{
      
           display: "block",
@@ -131,9 +131,9 @@ const UserPost = observer(()=>{
                     <h2 className="center" >У вас нет записей </h2>
                     <Alert severity="info">
                     <AlertTitle>Редакция</AlertTitle>
-                    Если вы напишите пост то он будет расмотрен администратором от — <strong> 2 часов до 1 дня!</strong>
+                    Егер сіз пост жазсаңыз, оны әкімші қарайды - <strong> 2 сағаттан 1 күнге дейін!</strong>
                     </Alert>
-                    <Button variant="outlined" className="center"  onClick={Redux} >Написать пост</Button>
+                    <Button variant="outlined" className="center"  onClick={Redux} >Пост жазу</Button>
                     </Stack>
                     </Container>
                 </Card>

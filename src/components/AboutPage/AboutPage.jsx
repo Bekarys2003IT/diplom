@@ -13,28 +13,27 @@ const AboutPage = () => {
  
         <div className="container_about text_before_after">
 
-            <h1>Давайте расскажем о нас</h1>
+            <h1>Біз жайлы</h1>
           
           
             </div>
    
             <div className="text_anim_style ">
-            <TextAnim  width={46} text_main={"Враги всегда говорят правду, друзья — никогда."} />
+            <TextAnim  width={46} text_main={"Қазақстан халықаралық міндеттемелеріне және адам құқықтары мен заң үстемдігі саласындағы әмбебап қағидаттарға бейілдігін сақтайды."} />
             
             
         <div className="Content_container">
    
-       <TextAnim  width={10} text_main={"(Цицерон)"} />
+       <TextAnim  width={10} text_main={"(Қасым-Жомарт Тоқаев)"} />
        <div className="castom_text_design">
        <div className="container_about_text_design">
-         <h1 className="text_about_pages">you can lie, but not to yourself</h1>
+         <h1 className="text_about_pages">Құқық қорғау біздің басты міндетіміз</h1>
        </div>
      </div>
         </div>
             <div className="text_container">
   
-            <h4 className="text_about_us">Мы основаны 2022 году, с миссией говорить о новостях только правду , связи с нынешними делами страны и мира пропоганда всяких воин и политических проделок в этом мире нужен надежный источник. 
-        Так и зародилаcь идея о kaznews.</h4>
+            <h4 className="text_about_us">Lawlapp-тың миссиясы - клиенттердің құқықтық қызметтерге қол жетімді мүмкіндік беру. </h4>
 
         </div>
 
@@ -46,13 +45,12 @@ const AboutPage = () => {
 
         
         <div className="text_container">
-        <h4 className="text_about_us">Mы думали сделать для народа только качественные новости и придержовались мысли что идея должна жить не только в голове, но и в реальности. Mы не будем обещать что мир изменится сразу, но мы готовы его изменить хоть на малость, ведь большие дела начинются с малого.</h4>
+        <h4 className="text_about_us">Біздің мақсатымыз – адамдарға уақытты, күш-жігерді және қаржылық ресурстарды ысырап етпей, қажетті заң көмегін алуға көмектесу.</h4>
         </div> 
         </div>
     
 
-        <h4 className="text_brain">"Не завидуй тому, кто силён и богат,
-        За рассветом всегда наступает закат."</h4>
+        <h4 className="text_brain">"Біз өз құқығымыз үшін күресуіміз керек."</h4>
  
         <div className="day-night-circle">
         

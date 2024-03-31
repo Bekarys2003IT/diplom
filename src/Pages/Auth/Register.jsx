@@ -100,7 +100,7 @@ const Register = () => {
         }
         if(password!==resetpassword) {
             setLoading(false);
-            seterrorPasswordRepeat("Пароли не совподают")
+            seterrorPasswordRepeat("Паролдеріңіз бірдей емес")
         }
      
           
@@ -125,13 +125,13 @@ const Register = () => {
         <form onSubmit={Auth_Register} className="form-login">
             <ul className="login-nav">
                 <li className="login-nav__item active">
-                    <a href="#">Регистрация</a>
+                    <a href="#">Тіркелу</a>
                 </li>
    
             </ul>
             <h4 className='error'>{msg}</h4>
             <label for="login-input-user" className="login__label">
-                Придумайте логин
+                Логин ойлап табыңыз
             </label>
             <input id="login-input-user" className="login__input" type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
             <h4 className='error'>{errorUsername}</h4>
@@ -141,17 +141,17 @@ const Register = () => {
             <input id="login-input-email" className="login__input" type="email" value={email}  onChange={(e) => setEmail(e.target.value)} />
             <h4 className='error'>{errorEmail}</h4>
             <label for="login-input-firstname" className="login__label">
-                Имя
+                Аты
             </label>
             <input id="login-input-firstname" className="login__input" type="text" value={first_name} onChange={(e) => setFirst_name(e.target.value)}  />
             <h4 className='error'>{errorFirst_name}</h4>
             <label for="login-input-lastname" className="login__label">
-                Фамлилия
+                Жөні
             </label>
             <input id="login-input-lastname" className="login__input" type="text" value={last_name} onChange={(e) => setLast_name(e.target.value)} />
             <h4 className='error'>{errorLast_name}</h4>
             <label for="login-input-surname" className="login__label">
-                Отчество
+                Әкесінің аты
             </label>
             <input id="login-input-surname" className="login__input" type="text" value={surname}  onChange={(e) => setSurname(e.target.value)} />
             <h4 className='error'>{errorSurname}</h4>
@@ -162,13 +162,13 @@ const Register = () => {
             
        
             <Checkbox checked={checked} onClick={changeInputTypeHandler} defaultChecked size="small" /> 
-            <a className="cheked">Показать пароль</a>
+            <a className="cheked">Паролді өзгерту</a>
         
             
             <h4 className='error'>{errorPassword}</h4>
           
             <label for="login-input-password" className="login__label">
-            Повторите пароль
+             Паролді қайталыңыз
         </label>
         <input  className="login__input" type={inputType} value={resetpassword}  onChange={(e) => setresetpassword(e.target.value)}/>
         
@@ -181,7 +181,7 @@ const Register = () => {
     <h4 className='error'>{errorCaptcha_value}</h4>    
 
 
-            <button className="login__submit">Зарегистрировать</button>
+            <button className="login__submit">Тіркелу</button>
             
         </form>
        

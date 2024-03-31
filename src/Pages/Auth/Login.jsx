@@ -79,7 +79,7 @@ const Login = () => {
 
 
                                 <label  className="login__label">
-                                Ваш логин
+                                Сіздің логиніңіз
                             </label>
                             <input className="login__input" value={username} type="text" onChange={(e) => setUsername(e.target.value)}/>
                             <h4 className='error'>{errorUsername}</h4>
@@ -91,10 +91,10 @@ const Login = () => {
 
                             <h4 className='error'>{errorPassword}</h4>
                   
-                                <button className="login__submit" >авторизоваться</button>
+                                <button className="login__submit" >Авторизациялану</button>
                                 
                             </form>
-                            <a href="#" className="login__forgot">Забыли пароль?</a>
+                            <a href="#" className="login__forgot"> Пароліңізді ұмыттыңыз ба?</a>
                         </div>
      
     )

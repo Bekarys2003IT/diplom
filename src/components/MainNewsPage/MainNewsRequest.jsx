@@ -100,7 +100,7 @@ function handleDeleteElement (id) {
  
       <div  className="Container">
       <div className="container_about">
-      <h1 >Наши главные новости</h1>
+      <h1 >Біздің басты жаңалықтар</h1>
       
       
       </div>
@@ -111,7 +111,7 @@ function handleDeleteElement (id) {
         error
         ?
 
-    <ServerError title={" Ошибка сервера"} error_text={"Сервер не отвечает на запросы. Если вы увидели это сообщение то можете перезагрузить страницу.Если не помогло напишите нам"}/>
+    <ServerError title={"Сервер қателігі"} error_text={"Сервер сұрауларға жауап бермейді. Егер сіз бұл хабарламаны көрсеңіз, бетті қайта жүктей аласыз, бұл көмектеспесе, бізге жазыңыз."}/>
       :
       
 

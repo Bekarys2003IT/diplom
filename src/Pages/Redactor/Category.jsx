@@ -25,7 +25,7 @@ const CategoryInput=(props)=>{
 
       <div className="container_about" style={{textAlign: 'center'}}>
 
-      <h4>Визуальное отоброжение на сайте</h4>
+      <h4>Сайтта визуалды көрсету</h4>
     
     
       </div>

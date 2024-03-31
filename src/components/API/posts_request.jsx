@@ -141,18 +141,18 @@ const LikeAdd =(id)=>{
                           aria-describedby="alert-dialog-description"
                         >
                           <DialogTitle id="alert-dialog-title">
-                            {"Удаление поста"}
+                            {"Постты өшіру"}
                           </DialogTitle>
                           <DialogContent>
                             <DialogContentText id="alert-dialog-description">
-                            Если вы удалите пост то оно будет потеряно безвозмездно
+                            Егер сіз бұл постты өшірсеңіз қайтару мүмкін емес
                             </DialogContentText>
                           </DialogContent>
                           <DialogActions>
-                            <Button onClick={handleClose}>Отмена</Button>
+                            <Button onClick={handleClose}>Өшірмеу</Button>
 
                             <Button color="error" onClick={() =>{props.delete(props.id); setOpen(false);} } autoFocus>
-                              Удалить
+                              Өшіру
                             </Button>
                             
                           </DialogActions>

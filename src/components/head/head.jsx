@@ -49,6 +49,8 @@ const Head=(props)=>{
     <Link  to={"contact"} className="menu-item tegA">{props.contact}</Link>
     <Link  to={"register"} className="menu-item tegA">{props.register}</Link>
     <Link  to={"login"} className="menu-item tegA">{props.login}</Link>
+    <Link  to={"lawyer"} className="menu-item tegA">{props.lawyer}</Link>
+
     
 
   </Menu>

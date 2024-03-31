@@ -17,7 +17,7 @@ const ContactPage = () => {
           
           
             </div>
-        <TextAnim  width={37} text_main={"Наши контакты всегда открыты для вас."} />
+        <TextAnim  width={37} text_main={"Біздің контактілеріміз әрқашан желіде"} />
         <div className="banka">
 
         <a href={url.social.linkedin} className="fa fa-linkedin" id="SocialNetwork"></a>

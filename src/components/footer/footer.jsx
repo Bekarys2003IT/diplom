@@ -27,7 +27,7 @@ const Footer=(props)=>{
           <li><a href="#">Serviços</a></li>
           <li><a href="https://codepen.io/trending">codepen.io</a></li>
       </ul>
-      <p>@Design by Sanzhar Sapar</p>
+      <p>@Design by Bekarys Sandigali</p>
   </footer>
 
  </div>
