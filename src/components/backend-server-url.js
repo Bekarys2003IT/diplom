@@ -37,8 +37,7 @@
         identificated:'/api/v1/news/post/identificated',
         post_delete:'/api/v1/news/post/delete'
     },
-    gmail:'sanzharsapar1@gmail.com'
-    
+    gmail:'bekaris070603@gmail.com'
     }
 
 
